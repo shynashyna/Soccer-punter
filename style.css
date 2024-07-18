@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+--color1: #14213d;
+--color2:#eddea4;
+--color3: #e5e5e5;
+--color4: #f95738;
+
+}
+
+.header{
+    background-color: var(--color1);
+    padding-left: 2rem;
+    padding-right: 0.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    height: auto;
+    color: white;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+.logo img{
+    height: 24px;
+    border-radius: 8px;
+}
+
+.navbar ul{
+    display: flex;
+    margin-right: 200px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.navbar a{
+    color: var(--color2);
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navBtn{
+    padding: 12px 20px;
+    color: var(--color2);
+    background-color: var(--color4);
+    border: none;
+    border-radius: 20px;
+}
+
+.hero{
+    /* display: flex;
+    height: 100vh; */
+    /* background-image: url("/Assets/american-football-field.jpg"); */
+    /* background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center; */
+}
+
+/* .hero-img img{
+    height: 250px;
+    margin-top: 50px;
+    width: 30vw;
+    height: 88vh;
+    border-radius: 10px;
+} */
+
+.hero-text{
+    margin: 0.5rem;
+    text-align: left;
+    /* margin-bottom: 10px; */
+}
+.hero-text h2{
+    font-size: 2rem;
+    /* margin-top: 30px; */
+    color: green;
+    /* padding: 20px 20px; */
+    padding-bottom: 5rem;
+
+}
+
+.hero-text p{
+    font-size: 30px;
+    margin-left: 20px;
+    /* padding-bottom: 20px; */
+    color: red;
+    /* padding-top: 5rem; */
+    /* margin-top: -5px; */
+}
+
+.btn{
+    /* margin-left: 50px; */
+    
+   
+}
+
+.navBtn-contact{
+    background-color: green;
+    color: white;
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.navBtn-contact a , a {
+    list-style: none;
+    text-decoration: none;
+}
