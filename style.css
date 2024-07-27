@@ -102,11 +102,13 @@ ul li{
     /* margin-top: -5px; */
 }
 
-.btn{
-    /* margin-left: 50px; */
-    
-   
-}
+
+
+/* .navBtn-contact a , a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+} */
 
 .navBtn-contact{
     background-color: green;
@@ -123,4 +125,19 @@ ul li{
 .navBtn-contact a , a {
     list-style: none;
     text-decoration: none;
+    color: white;
+}
+
+
+@media (min-width: 600px){
+    .hero-text {
+        text-align: center;
+
+    }
+}
+
+@media (min-width: 800px) {
+    .hero-text h2{
+        font-size: 1rem;
+    }
 }
